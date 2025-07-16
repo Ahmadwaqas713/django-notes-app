@@ -1,0 +1,31 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore environment files
+.env
+*.env
+*.env.*
+
+# Ignore node modules (if frontend exists)
+node_modules/
+
+# Ignore Docker-related clutter
+.dockerignore
+Dockerfile*
+
+# Ignore database and runtime data
+data/
+*.db
+*.sqlite3
+
+# Ignore editor settings
+.vscode/
+.idea/
+
+# Ignore Git and build files
+.git/
+.gitignore
+build/
+dist/
+*.log
